@@ -2,14 +2,14 @@ from setuptools import setup  # type: ignore
 
 from henry import __version__ as pkg
 
-NAME = "henry"
+NAME = "henry-temp-fix"
 VERSION = pkg.__version__
 REQUIRES = ["looker-sdk>=21", "tabulate"]
 
 setup(
-    author="Joseph Axisa",
-    author_email="jax@looker.com",
-    description="A Looker Cleanup Tool",
+    author="Ryan Bobrowski",
+    author_email="rbobrowski@google.com",
+    description="A Looker Cleanup Tool (Temp Fix Version)",
     install_requires=REQUIRES,
     license="MIT",
     long_description=open("README.md", encoding="utf-8").read(),
