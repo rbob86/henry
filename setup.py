@@ -2,7 +2,7 @@ from setuptools import setup  # type: ignore
 
 from henry import __version__ as pkg
 
-NAME = "henry"
+NAME = "henry-temp-fix"
 VERSION = pkg.__version__
 REQUIRES = ["looker-sdk>=21", "tabulate"]
 
