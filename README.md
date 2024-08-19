@@ -219,7 +219,7 @@ The `vacuum models` command exposes models and the number of queries against the
 
 #### vacuum explores
 
-The `vacuum explores` command exposes joins and exposes fields that are below or equal to the minimum number of queries threshold (default=0, can be changed using the `--min-queries` argument) over the specified timeframe (default: 90, can be changed using the `--timeframe` argument).
+The `vacuum explores` command is one that exposes joins and exposes fields that are below or equal to the minimum number of queries threshold (default=0, can be changed using the `--min-queries` argument) over the specified timeframe (default: 90, can be changed using the `--timeframe` argument).
 
 Example: from the analyze function run [above](#analyze_explores), we know that the cohorts explore has 4 fields that haven't been queried once in the past 90 days. Running the following vacuum command:
 
