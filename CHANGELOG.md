@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/rbob86/henry/compare/v1.1.1...v1.1.2) (2024-08-19)
+
+
+### Bug Fixes
+
+* update readme ([b696c87](https://github.com/rbob86/henry/commit/b696c87fc8d4f72ed1b0757dec358a750e77ef3f))
+
 ## [1.1.1](https://github.com/rbob86/henry/compare/v1.1.0...v1.1.1) (2024-08-19)
 
 
